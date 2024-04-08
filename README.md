@@ -50,19 +50,6 @@
 ![Text](screenshots/ss6.png)
 
 ![Text](screenshots/ss7.png)
-
-  
-## SOCIAL
-
-
-[Facebook 🧡](https://www.facebook.com/desiprogrammerofficial)
-
-[Instagram](https://www.instagram.com/desiprogrammer/)
-
-[Gitlab](https://gitlab.com/desiprogrammer)
-
-[Github](https://github.com/desi-programmer)
-
   
 # Data
     - type
