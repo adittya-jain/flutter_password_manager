@@ -69,7 +69,7 @@ class _PasswordsState extends State<Passwords> {
             );
           } else {
             return ListView.builder(
-              itemCount: snapshot.data.length,
+              // itemCount: snapshot.data.length,
               itemBuilder: (context, index) {
                 Map data = box.getAt(index);
                 return Card(
@@ -141,10 +141,10 @@ class _PasswordsState extends State<Passwords> {
   }
 
   void insertDB() {
-    String type;
-    String nick;
-    String email;
-    String password;
+    String type='';
+    String nick='';
+    String email='';
+    String password='';
     showModalBottomSheet(
       context: context,
       isScrollControlled: true,
@@ -173,7 +173,7 @@ class _PasswordsState extends State<Passwords> {
                   type = val;
                 },
                 validator: (val) {
-                  if (val.trim().isEmpty) {
+                  if (val!.trim().isEmpty) {
                     return "Enter A Value !";
                   } else {
                     return null;
@@ -197,7 +197,7 @@ class _PasswordsState extends State<Passwords> {
                   nick = val;
                 },
                 validator: (val) {
-                  if (val.trim().isEmpty) {
+                  if (val!.trim().isEmpty) {
                     return "Enter A Value !";
                   } else {
                     return null;
@@ -220,7 +220,7 @@ class _PasswordsState extends State<Passwords> {
                   email = val;
                 },
                 validator: (val) {
-                  if (val.trim().isEmpty) {
+                  if (val!.trim().isEmpty) {
                     return "Enter A Value !";
                   } else {
                     return null;
@@ -243,7 +243,7 @@ class _PasswordsState extends State<Passwords> {
                   password = val;
                 },
                 validator: (val) {
-                  if (val.trim().isEmpty) {
+                  if (val!.trim().isEmpty) {
                     return "Enter A Value !";
                   } else {
                     return null;

@@ -34,35 +34,6 @@
     - add Edit
     - add a text-auto-fill for correctly mapping icons to service
 
-
-# Screenshots
-
-![Text](screenshots/ss1.png)
-
-![Text](screenshots/ss2.png)
-
-![Text](screenshots/ss3.png)
-
-![Text](screenshots/ss4.png)
-
-![Text](screenshots/ss5.png)
-
-![Text](screenshots/ss6.png)
-
-![Text](screenshots/ss7.png)
-
-  
-## SOCIAL
-
-
-[Facebook 🧡](https://www.facebook.com/desiprogrammerofficial)
-
-[Instagram](https://www.instagram.com/desiprogrammer/)
-
-[Gitlab](https://gitlab.com/desiprogrammer)
-
-[Github](https://github.com/desi-programmer)
-
   
 # Data
     - type

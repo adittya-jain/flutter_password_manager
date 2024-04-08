@@ -17,7 +17,7 @@ void main() async {
     await secureStorage.write(key: 'key', value: base64UrlEncode(key));
   }
   //
-  var encryptionKey = base64Url.decode(await secureStorage.read(key: 'key'));
+  var encryptionKey = base64Url.decode(await secureStorage.read(key: 'key')??'');
   print('Encryption key: $encryptionKey');
 
   await Hive.openBox(
@@ -85,7 +85,7 @@ class _FingerPrintAuthState extends State<FingerPrintAuth> {
         setState(() {});
       }
     } catch (e) {
-      if (e.code == "NotAvailable") {
+      if (e == "NotAvailable") {
         showDialog(
           context: context,
           builder: (context) => AlertDialog(
